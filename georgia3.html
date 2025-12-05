@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es-ES" itemscope itemtype="https://schema.org/ArtGallery">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="/styles/generic.css">
+    <title>Galería de Arte Contemporáneo | Georgia Suter</title>
+    <meta name="author" content="Nombre del autor"/>
+    <meta name="copyright" content="Propietario del copyright"/>
+    <meta name="description" content="Galería de arte contemporáneo en Madrid. Obras exclusivas de artistas emergentes y consolidados. Asesoramiento personalizado para coleccionistas.">
+    
+    <!-- Schema.org markup para Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ArtGallery",
+      "name": "Georgia Suter",
+      "url": "https://www.galeriaelenavelazquez.com
+      "description": "Galería de arte contemporáneo especializada en artistas emergentes y consolidados",
+      "url": "https://www.GeorgiaSuter.com",
+      "telephone": "+34-915-556-789",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle de Alcalá, 45",
+        "addressLocality": "Madrid",
+        "postalCode": "28014",
+        "addressCountry": "ES"
+      },
+      "openingHours": "Mo-Fr 10:00-20:00, Sa 11:00-14:00",
+      "priceRange": "€€€"
+    }
+    </script>
+  
+
+</head>
+<body>
+
+    <!-- JavaScript Insert Here -->
+    <div id="ContactPopup"></div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="/" class="logo">Georgia Suter</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+              <li><a href="#sobre-mi">Sobre mí</a></li>
+              <li><a href="#contacto" onclick="onButtonPressContact()">Contacto</a></li>
+                    <li class="cart-icon" onclick="toggleCart()">
+    🛒
+    <span class="cart-count" id="cartCount">0</span>
+</li>
+
+
+            </ul>
+      
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content fade-in">
+            <h1>OCEAN ART</h1>
+            <p>El mar hecho arte.<br>
+                Cada obra, una emoción del océano capturado en resina...</p>
+        <img src="fotos/1.jpg" class="introduction-photo" alt="Mujer adulta de pie sonriendo hacia la cámara, vistiendo mono azul marino y pañuelo azul claro con flecos de cuentas; manos relajadas a los lados; fondo borroso en tonos turquesa que sugiere el océano o un mural costero en una galería; tono acogedor y sereno; texto visible: PORTFOLIO, Georgia Suter, OCEAN ART, www.instagram.com/georgiasuter.art, Costa Brava - Spain" itemprop="image">  
+    </div>
+    </section>
+
+    <!-- Sobre mí -->
+     <section>
+                <div class="hero-flex-info">
+                    <div class="hero-flex-info1">
+            <h3>Sumérgete en el arte del océano</h3>
+            <p>Cada obra que nace en mi taller es una invitación a detener el tiempo, a sentir la calma y la fuerza del mar en un instante eterno.
+Trabajo con resina, pigmentos y elementos naturales para recrear la belleza cambiante del océano: sus olas, su profundidad y su luz.
+Cada pieza es única hecha con paciencia, emoción y respeto por la naturaleza, buscando transmitir esa sensación de libertad y serenidad que solo el mar sabe dar.
+</p>
+</div>
+<div class="hero-flex-info2">
+<h3>Explora mi mundo Ocean Art:</h3>
+<ul>
+    <li>Obras originales a la venta o por encargo personalizadas según tus gustos.</li>
+    <li>Cursos online y presenciales: aprende a crear tus propias piezas marinas (desde olas perfectas hasta fondos marinos y litorales).</li>
+    <li>Venta de bases DM artesanales o encarga la tuya personalizada, lista para usar con resina.</li>
+</ul>
+<br>
+<blockquote><i>"Déjate llevar por la energía del agua y descubre cómo el arte puede conectar tierra, alma y océano."</i></blockquote>
+</div>
+        </div>
+     </section>
+
+
+
+    <!-- Galería -->
+    <section id="galeria">
+        <h2 class="section-title">Obras Destacadas</h2>
+        <div class="gallery">
+            <!-- Obra 1 -->
+            <div class="artwork" itemscope itemtype="https://schema.org/VisualArtwork">
+                <img src="fotos/8.png" alt="Pintura abstracta contemporánea - Obra exclusiva" itemprop="image">
+                <div class="artwork-info">
+                    <h3 itemprop="name"></h3>
+                    <p class="artist" itemprop="creator" itemtype="https://schema.org/Person"></p>
+                    <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <span itemprop="priceCurrency" content=""></span>
+                        <span itemprop="price" content=""></span>
+                    </p>
+                    <meta itemprop="availability" content="https://schema.org/InStock">
+                    <meta itemprop="description" content="Pintura abstracta contemporánea con técnica mixta sobre lienzo">
+                </div>
+            </div>
+            
+            <!-- Obra 2 -->
+            <div class="artwork" itemscope itemtype="https://schema.org/VisualArtwork">
+                <img src="fotos/7.png" alt="Arte moderno - Escultura contemporánea" itemprop="image">
+                <div class="artwork-info">
+                    <h3 itemprop="name"></h3>
+                    <p class="artist" itemprop="creator" itemtype="https://schema.org/Person"></p>
+                    <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <span itemprop="priceCurrency" content=""></span>
+                        <span itemprop="price" content=""></span>
+                    </p>
+                    <meta itemprop="availability" content="https://schema.org/InStock">
+                    <meta itemprop="description" content="Escultura contemporánea en bronce con acabado pulido">
+                </div>
+            </div>
+            
+            <!-- Obra 3 -->
+            <div class="artwork" itemscope itemtype="https://schema.org/VisualArtwork">
+                <img src="/fotos/9.png" alt="Arte contemporáneo español - Pintura moderna" itemprop="image">
+                <div class="artwork-info">
+                    <h3 itemprop="name"></h3>
+                    <p class="artist" itemprop="creator" itemtype="https://schema.org/Person"></p>
+                    <p class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                        <span itemprop="priceCurrency" content="EUR"></span>
+                        <span itemprop="price" content=""></span>
+                    </p>
+                    <meta itemprop="availability" content="https://schema.org/InStock">
+                    <meta itemprop="description" content="Pintura contemporánea que explora la relación entre espacio urbano y naturaleza">
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="gallery-container" id="artCarousel">
+    <button id="prevBtn"  class="arrow left">‹</button>
+
+    <div class="gallery-wrapper">
+        <div class="gallery-track" id="galleryTrack">
+
+            <!-- ARTWORK ITEM -->
+<div class="artwork" data-title="Obra 1" data-artist="Georgia Suter" data-price="18.750€" data-img="fotos/1.png">
+    <img src="fotos/1.jpg" alt="Obra 1">
+</div>
+
+<div class="artwork" data-title="Obra 2" data-artist="Georgia Suter" data-price="22.500€" data-img="fotos/2.png">
+    <img src="fotos/2.png" alt="Obra 2">
+</div>
+
+<div class="artwork" data-title="Obra 3" data-artist="Georgia Suter" data-price="19.900€" data-img="fotos/3.png">
+    <img src="fotos/3.png" alt="Obra 3">
+</div>
+
+<div class="artwork" data-title="Obra 4" data-artist="Georgia Suter" data-price="24.300€" data-img="fotos/4.png">
+    <img src="fotos/4.png" alt="Obra 4">
+</div>
+
+<div class="artwork" data-title="Obra 5" data-artist="Georgia Suter" data-price="17.800€" data-img="fotos/5.png">
+    <img src="fotos/5.png" alt="Obra 5">
+</div>
+
+<div class="artwork" data-title="Obra 6" data-artist="Georgia Suter" data-price="21.100€" data-img="fotos/6.png">
+    <img src="fotos/6.png" alt="Obra 6">
+</div>
+
+<div class="artwork" data-title="Obra 7" data-artist="Georgia Suter" data-price="18.000€" data-img="fotos/7.png">
+    <img src="fotos/7.png" alt="Obra 7">
+</div>
+
+<div class="artwork" data-title="Obra 8" data-artist="Georgia Suter" data-price="23.200€" data-img="fotos/8.png">
+    <img src="fotos/8.png" alt="Obra 8">
+</div>
+
+<div class="artwork" data-title="Obra 9" data-artist="Georgia Suter" data-price="20.400€" data-img="fotos/9.png">
+    <img src="fotos/9.png" alt="Obra 9">
+</div>
+
+<div class="artwork" data-title="Obra 10" data-artist="Georgia Suter" data-price="25.600€" data-img="fotos/10.png">
+    <img src="fotos/10.png" alt="Obra 10">
+</div>
+
+<div class="artwork" data-title="Obra 11" data-artist="Georgia Suter" data-price="19.200€" data-img="fotos/11.png">
+    <img src="fotos/11.png" alt="Obra 11">
+</div>
+
+
+            <!-- AGREGA TUS OTRAS OBRAS HASTA LAS 11 -->
+
+        </div>
+    </div>
+
+
+<button id="nextBtn"  class="arrow right">›</button>
+
+</section>
+
+<!-- MODAL -->
+<div id="artModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <img id="modalImg" alt="">
+    <h2 id="modalTitle"></h2>
+    <p id="modalArtist"></p>
+    <p id="modalPrice"></p>
+  </div>
+</div>
+
+
+
+    <!-- Blog/Consejos -->
+    <section id="blog">
+        <h2 class="section-title">Consejos para Coleccionistas</h2>
+        <div class="blog-preview">
+            <h3>Artículos sobre Arte y Coleccionismo</h3>
+            <div class="blog-articles">
+                <div class="blog-article">
+                    <h4><a href="/como-invertir-en-arte">Cómo Invertir en Arte Contemporáneo</a></h4>
+                    <p>Guía completa para principiantes en el coleccionismo de arte.</p>
+                </div>
+                <div class="blog-article">
+                    <h4><a href="/artistas-emergentes-2024">Artistas Emergentes a Seguir en 2024</a></h4>
+                    <p>Descubre los talentos más prometedores del panorama actual.</p>
+                </div>
+                <div class="blog-article">
+                    <h4><a href="/autenticacion-obra-arte">Cómo Verificar la Autenticidad de una Obra</a></h4>
+                    <p>Consejos esenciales para coleccionistas exigentes.</p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios">
+        <h2 class="section-title">Coleccionistas Satisfechos</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"Excelente asesoramiento para mi primera adquisición importante. El conocimiento del mercado y la atención personalizada hicieron toda la diferencia."</p>
+                <p class="client">- Javier López, Coleccionista</p>
+            </div>
+            <div class="testimonial">
+                <p>"He trabajado con varias galerías, pero la dedicación y profesionalismo aquí son excepcionales. Siempre encuentran exactamente lo que busco."</p>
+                <p class="client">- Elena Ramírez, Inversora en Arte</p>
+            </div>
+            <div class="testimonial">
+                <p>"La transparencia en las transacciones y el seguimiento post-venta superaron mis expectativas. Recomiendo totalmente sus servicios."</p>
+                <p class="client">- Roberto Sánchez, Coleccionista</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="faq-section">
+            <div class="faq-item">
+                <div class="faq-question">¿Cómo puedo empezar una colección de arte?</div>
+                <div class="faq-answer">Te recomendamos comenzar con artistas emergentes cuyo trabajo conecte contigo personalmente. Ofrecemos asesoramiento inicial gratuito para orientarte en la selección de obras que se ajusten a tu presupuesto y gustos.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Ofrecen certificados de autenticidad?</div>
+                <div class="faq-answer">Todas nuestras obras incluyen certificado de autenticidad y documentación completa de procedencia. Trabajamos directamente con los artistas o con fuentes verificadas para garantizar la autenticidad de cada pieza.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Realizan envíos internacionales?</div>
+                <div class="faq-answer">Sí, trabajamos con empresas especializadas en transporte de obras de arte a nivel internacional. Cada envío incluye un seguro completo y embalaje profesional para garantizar que la obra llegue en perfectas condiciones.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">¿Puedo financiar la compra de una obra?</div>
+                <div class="faq-answer">Sí, ofrecemos opciones de financiamiento flexibles para compras superiores a 5.000€. Contáctenos para conocer los detalles y condiciones específicas.</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Galería de Arte Elena Velázquez</h3>
+                <p>Marchante de arte especializado en arte contemporáneo y asesoramiento para coleccionistas con más de 15 años de experiencia.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#blog">Consejos</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <ul class="footer-links">
+                    <li>📞 +34 915 556 789</li>
+                    <li>✉️ info@galeriaelenavelazquez.com</li>
+                    <li>📍 Calle de Alcalá, 45, Madrid</li>
+                    <li>🕒 Lunes a Viernes: 10:00-20:00</li>
+                    <li>🕒 Sábados: 11:00-14:00</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="/politica-privacidad">Política de Privacidad</a></li>
+                    <li><a href="/aviso-legal">Aviso Legal</a></li>
+                    <li><a href="/cookies">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Galería de Arte Elena Velázquez. Todos los derechos reservados. | Marchante de arte en Madrid</p>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp -->
+    <a rel="noopener" href="https://wa.me/34915556789?text=Hola,%20me%20interesa%20recibir%20información%20sobre%20sus%20obras%20de%20arte" class="whatsapp-float" target="_blank">
+        <span>💬</span>
+    </a>
+    <script src="/scripts/contactpopup.js"></script>
+    <script src="/scripts/carrusel.js"></script>
+    <script>
+        // Animación de envío de formulario
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('¡Gracias por su consulta! Nos pondremos en contacto con usted en un plazo de 24 horas.');
+            this.reset();
+        });
+        
+        // Animación de elementos al hacer scroll
+        window.addEventListener('scroll', function() {
+            const elements = document.querySelectorAll('.artwork, .testimonial, .blog-article, .faq-item');
+            elements.forEach(element => {
+                const position = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if(position < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        });
+        
+        // Inicializar opacidad para animación
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.artwork, .testimonial, .blog-article, .faq-item');
+            elements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            });
+        });
+           
+    </script>
+    <!-- Modal del carrito (añade antes de cerrar </body>) -->
+<div id="cartModal" class="cart-modal">
+    <div class="cart-content">
+        <span class="cart-close" onclick="toggleCart()">&times;</span>
+        <h2>Mi Carrito</h2>
+        <div id="cartItems"></div>
+        <div class="cart-total" id="cartTotal">Total: 0€</div>
+        
+        <div id="orderFormSection" style="display:none;">
+            <h3>Datos de Contacto</h3>
+            <form class="order-form" onsubmit="submitOrder(event)">
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono" required>
+                <input type="text" placeholder="Dirección de envío" required>
+                <button type="submit" class="submit-order">Confirmar Pedido</button>
+            </form>
+        </div>
+        
+        <button class="checkout-btn" id="checkoutBtn" onclick="showOrderForm()">Proceder al Pedido</button>
+    </div>
+</div>
+<script>
+let cart = [];
+
+// Agregar al carrito (llama esta función desde cada artwork)
+function addToCart(title, price, img) {
+    const item = { title, price, img };
+    cart.push(item);
+    updateCart();
+    alert('¡Obra añadida al carrito!');
+}
+
+// Actualizar carrito
+function updateCart() {
+    const cartCount = document.getElementById('cartCount');
+    const cartItems = document.getElementById('cartItems');
+    const cartTotal = document.getElementById('cartTotal');
+    
+    cartCount.textContent = cart.length;
+    
+    if (cart.length === 0) {
+        cartItems.innerHTML = '<div class="empty-cart">El carrito está vacío</div>';
+        cartTotal.style.display = 'none';
+        document.getElementById('checkoutBtn').style.display = 'none';
+        return;
+    }
+    
+    document.getElementById('checkoutBtn').style.display = 'block';
+    cartTotal.style.display = 'block';
+    
+    let html = '';
+    let total = 0;
+    
+    cart.forEach((item, index) => {
+        const priceNum = parseFloat(item.price.replace('€', '').replace('.', '').replace(',', '.'));
+        total += priceNum;
+        
+        html += `
+            <div class="cart-item">
+                <img src="${item.img}" alt="${item.title}">
+                <div class="cart-item-info">
+                    <strong>${item.title}</strong><br>
+                    <span>${item.price}</span>
+                </div>
+                <button class="remove-item" onclick="removeFromCart(${index})">✕</button>
+            </div>
+        `;
+    });
+    
+    cartItems.innerHTML = html;
+    cartTotal.textContent = `Total: ${total.toLocaleString('es-ES')}€`;
+}
+
+// Eliminar del carrito
+function removeFromCart(index) {
+    cart.splice(index, 1);
+    updateCart();
+}
+
+// Toggle carrito
+function toggleCart() {
+    const modal = document.getElementById('cartModal');
+    modal.style.display = modal.style.display === 'block' ? 'none' : 'block';
+}
+
+// Mostrar formulario
+function showOrderForm() {
+    document.getElementById('orderFormSection').style.display = 'block';
+    document.getElementById('checkoutBtn').style.display = 'none';
+}
+
+// Enviar pedido
+function submitOrder(e) {
+    e.preventDefault();
+    alert('¡Pedido confirmado! Nos pondremos en contacto contigo pronto.');
+    cart = [];
+    updateCart();
+    toggleCart();
+    document.getElementById('orderFormSection').style.display = 'none';
+}
+
+// Cerrar modal al hacer clic fuera
+window.onclick = function(event) {
+    const modal = document.getElementById('cartModal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+}
+</script>
+
+<!-- IMPORTANTE: Añade botón "Añadir al carrito" en cada obra -->
+<!-- Ejemplo para agregar en cada .artwork del carrusel: -->
+<script>
+// Modifica tus artworks para incluir botón de añadir al carrito
+document.querySelectorAll('.artwork').forEach(artwork => {
+    const title = artwork.dataset.title;
+    const price = artwork.dataset.price;
+    const img = artwork.dataset.img;
+    
+    // Crear botón
+    const btn = document.createElement('button');
+    btn.textContent = '🛒 Añadir al carrito';
+    btn.style.cssText = 'position:absolute; bottom:10px; left:50%; transform:translateX(-50%); background:#2ecc71; color:white; border:none; padding:0.7rem 1.5rem; border-radius:5px; cursor:pointer; font-weight:bold;';
+    btn.onclick = (e) => {
+        e.stopPropagation();
+        addToCart(title, price, img);
+    };
+    
+    artwork.style.position = 'relative';
+    artwork.appendChild(btn);
+});
+</script>
+</body>
+</html>
